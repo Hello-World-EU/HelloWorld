@@ -7,10 +7,6 @@ script:
   - npm run test
 branches:
   only:
-<<<<<<< Updated upstream
-    - Develop
-    
-=======
   - Develop
   - Master
 deploy:
@@ -21,4 +17,3 @@ app:
   Develop: node-hello-world-1-staging
   Master: node-hello-world-1-production
   
->>>>>>> Stashed changes
