@@ -20,5 +20,16 @@
     "coveragePathIgnorePatterns": [
       "/node_modules/"
     ]
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduardou-ub/HelloWorld.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eduardou-ub/HelloWorld/issues"
+  },
+  "homepage": "https://github.com/eduardou-ub/HelloWorld#readme"
 }
