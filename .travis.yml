@@ -5,10 +5,12 @@ install:
   - npm install
 script:
   - npm run test
-branches:
-  only:
-  - Develop
-  - master
+on:
+    repo: eduardou-ub/HelloWorld
+    branches:    
+      only:      
+        - master
+        - Develop
 deploy:
   provider: heroku
   api_key:
