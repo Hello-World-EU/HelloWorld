@@ -1,18 +1,18 @@
 language: node_js
 node_js:
-  - 14.15.0
+- 14.15.0
 install:
-  - npm install
+- npm install
 script:
-  - npm run test
-on:
-    repo: eduardou-ub/HelloWorld
-    branches:    
-      only:      
-        - master
+- npm run test
+true:
+  repo: eduardou-ub/HelloWorld
+  branches:
+    only:
+    - master
 deploy:
   provider: heroku
   api_key:
-    secure: oRgjVwRwJBAazTYmFEeoEut24Caw35v2tffZafMwMiWcU0RHwsAMFW3mCBTGm0GwZVonqUPClmb2lJgDMOjh9f2xLnfrNRrghHkJKXsElKrOb2KwGtP5miiY3l+1MeUm0ZqCJ629xcoXVJEcPKF9IRdi68WWqSzPDeKMTbkwttx6HShUUYH4f0eMYZc1Huw583C097Xg9juEg+ZMyW6f36m+Q7FP+lDNwIYNJDuSUrNnVWqqq1UETkMf48wmFpZr3tnLf5HiQLJTDCvVQ5MzmB+QkkQ6OUhKgAbuu67lBuxgXetyZ5Fy0sR+2TV8EZTkecenb0NOokJuvhoY9/Ovb4EaCwqzF5bAz9oElKEtSck03djAAFb5AwOA3mEZ0ATvXt/gn/FbNqjFtxBi2HMmbRP8NUY1mOMS0v/0hihOcKG+rakgrFZerG2eykwZxTRF2LX5hcDz27oq9rCMNwoA863Qu7T5EOgUro+envkS+szmYgL1zpmbYRtoHKrPC1eVwouD8HAMNwUkyHYgQdvRAw8EwGW0YfKMfFUgZHFWRtsoGxo7uNqSsMV1+00gziV9uVD9vEAdNcHdk+MmelW1Wfc1JmXp1QmOMmmN5xNcCLG+Eb5ymayK0oJchs4pFkOOWw2MwBjA0rJI/XmkH7S9z4skrKa8QmH7338kcRgiv9g=
+    secure: pe2LRr085z54djmaJLNnyCr987+s5vmK/SPxRiqju2vI0Zu9bQ6jRXiv9B/gvnbcS125ZhSPBCHsfEiGe+MduYjJpCAnwOUDZaU5Q4GpPJHmss9D+lrIsAMmdIRO9wlz0Uj1+ZaBsQXldQV5OE59beRnut6vNftcMUZRn35/+mag4kdo2fk8LJO6xPEAejblOu5wtDpAQzqb1mPwVvvPGSCkHdJO7OgSrLlVw3KRNdpf7oy7JYq40bN/Ti5PWa21N+rCKCIbDYg0YhxopadtGa6i6qaXee17rau8YvwpeGScyX+CLgyrIEcMD3NYQPfYXd2x+UHmVrF9BvTQIVSsdI+2btHy9TO/0dCktkxXuZZebUeggBQLGw1SyAZuLwUW1AtE0xLw3LGzN5yWT/gdlgBPsorWMhUqlvZrBrhDyzZ4jFSGFKgxd6DABqBbzMnhQvMiSr/apX9ZXbv7KSpgf7egKGQdnO2A+13KPG+Kks5LQRN0EIkgbiZVGpyR8ylt2R3YuAGpEyzAnnirWFgty/ol4QrqQ4qwwpO2/+KtQiw4U9aj6UggN3r3KDdG4unP6HZXZjsOP5YTh5lexYha0a3W5f+GxeYUKJzkxXa8T+lbGI3ihnfkD/vx9/Lsss+vK8oNTWks71rqx0IgT2Z3ewq48hx4/jeDCqWG4dFciDo=
   app:
     master: node-hello-world-1-production
