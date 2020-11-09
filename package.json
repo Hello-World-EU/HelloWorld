@@ -2,7 +2,7 @@
   "name": "hello-world",
   "version": "1.0.0",
   "description": "packagename eduar",
-  "main": "app/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "jest"
   },
