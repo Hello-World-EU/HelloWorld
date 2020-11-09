@@ -17,4 +17,4 @@ deploy:
     secure: pe2LRr085z54djmaJLNnyCr987+s5vmK/SPxRiqju2vI0Zu9bQ6jRXiv9B/gvnbcS125ZhSPBCHsfEiGe+MduYjJpCAnwOUDZaU5Q4GpPJHmss9D+lrIsAMmdIRO9wlz0Uj1+ZaBsQXldQV5OE59beRnut6vNftcMUZRn35/+mag4kdo2fk8LJO6xPEAejblOu5wtDpAQzqb1mPwVvvPGSCkHdJO7OgSrLlVw3KRNdpf7oy7JYq40bN/Ti5PWa21N+rCKCIbDYg0YhxopadtGa6i6qaXee17rau8YvwpeGScyX+CLgyrIEcMD3NYQPfYXd2x+UHmVrF9BvTQIVSsdI+2btHy9TO/0dCktkxXuZZebUeggBQLGw1SyAZuLwUW1AtE0xLw3LGzN5yWT/gdlgBPsorWMhUqlvZrBrhDyzZ4jFSGFKgxd6DABqBbzMnhQvMiSr/apX9ZXbv7KSpgf7egKGQdnO2A+13KPG+Kks5LQRN0EIkgbiZVGpyR8ylt2R3YuAGpEyzAnnirWFgty/ol4QrqQ4qwwpO2/+KtQiw4U9aj6UggN3r3KDdG4unP6HZXZjsOP5YTh5lexYha0a3W5f+GxeYUKJzkxXa8T+lbGI3ihnfkD/vx9/Lsss+vK8oNTWks71rqx0IgT2Z3ewq48hx4/jeDCqWG4dFciDo=
   app:
     master: node-hello-world-1-production
-    Develop: node-hello-world-1-production
+    Develop: node-hello-world-1-staging
