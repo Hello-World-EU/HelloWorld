@@ -1,5 +1,5 @@
 const request = require('supertest')
-const app = require('../app')
+const app = require('../')
 
 describe('Get route', () => {
   it('page should return hello world 1', async (done) => {
